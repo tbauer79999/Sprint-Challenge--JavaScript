@@ -40,6 +40,7 @@ const consume = function(a,b,cb) {
   // Explain in your own words why nestedfunction can access the variable internal.
   
   // Explanation: 
+  // The nested function can find the variable in itself or the parents function.  But the Parent can not find the variable in its childs function.
   
   
   const external = "I'm outside the function";
